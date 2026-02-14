@@ -1,1 +1,1 @@
-aws s3 sync . s3://springwebessentials.com --profile jeff --region us-east-2 --exclude ".git*" --exclude ".idea*" --exclude ".idea*" --exclude ".DS_Store*" --exclude "aws-sync.sh" --exclude "resources/.DS_Store*"
+aws s3 sync . s3://springwebessentials.com --profile clubgahanna --delete --region us-east-2 --exclude ".git*" --exclude ".idea*" --exclude ".idea*" --exclude ".DS_Store*" --exclude "aws-sync.sh" --exclude "resources/.DS_Store*"
